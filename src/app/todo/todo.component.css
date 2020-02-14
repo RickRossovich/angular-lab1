@@ -1,0 +1,43 @@
+section {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 80%;
+  height: 50%;
+  border-radius: 20px;
+}
+.task-container {
+  display: flex;
+  align-items: center;
+}
+.task {
+  flex: auto;
+}
+.toForm{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.addForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.add {
+  display: flex;
+  background-color: #ff1493;
+  justify-content: center;
+}
+.button{
+    
+    width: 60px;
+    height: 30px;
+}
